@@ -25,12 +25,12 @@
 # /////////////////////////////////////////////
 # 5,  a,bを引数に取り、その足し算の結果を戻り値として返す
 # add関数を実装し、関数を呼び出して結果をprint関数で出力
-# def add(a,b):
-#     total=a+b
-#     return total
-# a=input("1つ目の数字を入力")
-# b=input("2つ目の数字を入力")
-# a=int(a)
-# b=int(b)
-# total=add(a,b)
-# print("合計は",total,"です")
+def add(a,b):
+    total=a+b
+    return total
+a=input("1つ目の数字を入力")
+b=input("2つ目の数字を入力")
+a=int(a)
+b=int(b)
+total=add(a,b)
+print("合計は",total,"です")
